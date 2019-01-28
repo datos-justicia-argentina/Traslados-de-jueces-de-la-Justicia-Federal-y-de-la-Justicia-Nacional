@@ -9,7 +9,7 @@ http://datos.jus.gob.ar/dataset/traslados-de-magistrados-de-la-justicia-federal-
 Características
 ---------------
 
--   **Fecha de Primera Publicación:**
+-   **Fecha de Primera Publicación:** 28/01/2019
 
 -   **Tags o Etiquetas:** cargos, federales, judiciales, jueces, justicia, magistrados, nacionales, traslados
 
