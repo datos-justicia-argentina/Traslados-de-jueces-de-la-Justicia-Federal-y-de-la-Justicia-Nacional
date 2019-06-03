@@ -26,9 +26,9 @@ Características
 Recursos disponibles
 --------------------
 
-### Traslados de jueces de la Justicia Federal y de la Justicia Nacional - AAAA-MM-DD
+### Traslados de jueces de la Justicia Federal y de la Justicia Nacional - AAAAMMDD
 
--   **Nombre:** jueces-justicia-federal-nacional-traslados-AAAA-MM-DD.csv
+-   **Nombre:** jueces-justicia-federal-nacional-traslados-AAAAMMDD.csv
 
 -   **Descripción del contenido:** se detallan los traslados de jueces de la Justicia Federal y de la Justicia Nacional
 
