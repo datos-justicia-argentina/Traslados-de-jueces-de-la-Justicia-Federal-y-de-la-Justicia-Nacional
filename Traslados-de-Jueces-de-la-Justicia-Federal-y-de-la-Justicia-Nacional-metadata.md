@@ -110,7 +110,7 @@ Recursos disponibles
 
 -   **organo_provincia_desde_id (int):** código de la provincia en la que se encuentra ubicado geográficamente el órgano, de la que es trasladado el magistrado, según la codificación de provincia implementada por INDEC (tener en cuenta que las jurisdicciones federales no coinciden con la división política en provincias de la República. Hasta 05/2019 nombre campo organo_provincia_indec_id)
 
--   **organo_provincia_hacia_indec_id (int):** código de la provincia en la que se encuentra ubicado geográficamente el órgano, hacia la que es trasladado el magistrado, según la codificación de provincia implementada por INDEC (tener en cuenta que las jurisdicciones federales no coinciden con la división política en provincias de la República)
+-   **organo_provincia_hacia_id (int):** código de la provincia en la que se encuentra ubicado geográficamente el órgano, hacia la que es trasladado el magistrado, según la codificación de provincia implementada por INDEC (tener en cuenta que las jurisdicciones federales no coinciden con la división política en provincias de la República)
 
 Notas
 ------
