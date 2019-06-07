@@ -38,12 +38,6 @@ Recursos disponibles
 
 ### Campos del recurso
 
--   **justicia_federal_o_nacional_desde (int):** indica si se trata de un órgano de la justicia federal o nacional desde el cual es trasladado el magistrado. Toma los valores:
-
-    -   Federal
-
-    -   Nacional
-
 -   **magistrado_nombre (string):** nombre del magistrado que es trasladado
 
 -   **magistrado_dni (string):** DNI del magistrado que es trasladado
@@ -66,9 +60,7 @@ Recursos disponibles
 
 -   **motivo_traslado (string):** motivo del traslado del magistrado
 
--   **localidad_nombre_desde (string):** nombre de la localidad de la que es trasladado el magistrado
-
--   **provincia_nombre_desde (string):** nombre de la provincia de la que es trasladado el magistrado
+-   **cargo_detalle_desde (string):** cargo que ocupa el magistrado antes de ser trasladado
 
 -   **organo_tipo_desde (string):** tipo de órgano del que es trasladado el magistrado. Toma los valores:
 
@@ -78,23 +70,27 @@ Recursos disponibles
 
     -   Tribunal
 
--   **organo_nombre_desde (string):** nombre del órgano del que es trasladado el magistrado
-
 -   **alzada_nombre_desde (string):** nombre de la alzada de la que es trasladado el magistrado
 
--   **cargo_detalle_desde (string):** cargo que ocupa el magistrado antes de ser trasladado
+-   **organo_nombre_desde (string):** nombre del órgano del que es trasladado el magistrado
 
--   **justicia_federal_o_nacional_hacia (string**): indica si se trata de un órgano de la justicia federal o nacional hacia el cual es trasladado el magistrado. Toma los valores:
+-   **justicia_federal_o_nacional_desde (int):** indica si el órgano desde el cual es trasladado el magistrado es de la justicia federal o nacional. Toma los valores:
 
     -   Federal
 
     -   Nacional
 
--   **localidad_nombre_hacia (string):** nombre de la localidad hacia la que es trasladado el magistrado
+-   **provincia_id_desde (string):** código de la provincia en la que se encuentra ubicado geográficamente el órgano desde el que es trasladado el magistrado, según la codificación de provincia implementada por INDEC (tener en cuenta que las jurisdicciones federales no coinciden con la división política en provincias de la República).
 
--   **provincia_nombre_hacia (string):** nombre de la provincia hacia la que es trasladado el magistrado
+-   **provincia_nombre_desde (string):** nombre de la provincia en que se encuetra ubicado geográficamente el órgano desde el que es trasladado el magistrado
 
--   **organo_tipo_hacia (string):** tipo de órgano hacia el que es trasladado el magitrado. Toma los valores:
+-   **localidad_id_desde (string):** código de la localidad en la que se encuentra ubicado geográficamente el órgano desde el que es trasladado el magistrado, según la codificación de provincia implementada por INDEC
+
+-   **localidad_nombre_desde (string):** nombre de la localidad en que se encuetra ubicado geográficamente el órgano desde el que es trasladado el magistrado
+
+-   **cargo_detalle_hacia (string):** cargo que ocupa el magistrado luego de ser trasladado
+
+-   **organo_tipo_hacia (string):** tipo de órgano al que es trasladado el magistrado. Toma los valores:
 
     -   Cámara
 
@@ -102,15 +98,24 @@ Recursos disponibles
 
     -   Tribunal
 
--   **organo_nombre_hacia (string):** nombre del órgano hacia el que es trasladado el magistrado
+-   **alzada_nombre_hacia (string):** nombre de la alzada del órgano al que es trasladado el magistrado
 
--   **alzada_nombre_hacia (string):** nombre de la alzada hacia la que es trasladado el magistrado
+-   **organo_nombre_hacia (string):** nombre del órgano al que es trasladado el magistrado
 
--   **cargo_detalle_hacia (string):** cargo que ocupa el magistrado al ser trasladado
+-   **justicia_federal_o_nacional_hacia (int):** indica si órgano al que es trasladado el magistrado es de la justicia federal o nacional. Toma los valores:
 
--   **organo_provincia_desde_id (int):** código de la provincia en la que se encuentra ubicado geográficamente el órgano, de la que es trasladado el magistrado, según la codificación de provincia implementada por INDEC (tener en cuenta que las jurisdicciones federales no coinciden con la división política en provincias de la República. Hasta 05/2019 nombre campo organo_provincia_indec_id)
+    -   Federal
 
--   **organo_provincia_hacia_id (int):** código de la provincia en la que se encuentra ubicado geográficamente el órgano, hacia la que es trasladado el magistrado, según la codificación de provincia implementada por INDEC (tener en cuenta que las jurisdicciones federales no coinciden con la división política en provincias de la República)
+    -   Nacional
+
+-   **provincia_id_hacia (string):** código de la provincia en la que se encuentra ubicado geográficamente el órgano órgano al que es trasladado el magistrado, según la codificación de provincia implementada por INDEC (tener en cuenta que las jurisdicciones federales no coinciden con la división política en provincias de la República).
+
+-   **provincia_nombre_hacia (string):** nombre de la provincia en que se encuetra ubicado geográficamente el órgano al que es trasladado el magistrado
+
+-   **localidad_id_hacia (string):** código de la localidad en la que se encuentra ubicado geográficamente el órgano al que es trasladado el magistrado, según la codificación de provincia implementada por INDEC
+
+-   **localidad_nombre_hacia (string):** nombre de la localidad en que se encuetra ubicado geográficamente el órgano al que es trasladado el magistrado
+
 
 Notas
 ------
