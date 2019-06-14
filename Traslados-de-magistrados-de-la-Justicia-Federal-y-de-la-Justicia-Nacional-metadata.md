@@ -1,4 +1,4 @@
-Traslados de magistrados de la Justicia Federal y de la Justicia Nacional
+Traslados de jueces de la Justicia Federal y de la Justicia Nacional
 ====================================================================
 
 En este conjunto de datos se detallan los traslados de jueces de la Justicia Federal y de la Justicia Nacional de la República Argentina. La Oficina Decretos, dependiente de la Subsecretaría de Relaciones con el Poder Judicial y Asuntos Penitenciarios interviene en el trámite de traslado de jueces conforme a lo previsto en la Constitución Nacional y reglamentación complementaria.
@@ -26,9 +26,9 @@ Características
 Recursos disponibles
 --------------------
 
-### Traslados de magistrados de la Justicia Federal y de la Justicia Nacional - AAAAMMDD
+### Traslados de jueces de la Justicia Federal y de la Justicia Nacional - AAAAMMDD
 
--   **Nombre:** magistrados-justicia-federal-nacional-traslados-AAAAMMDD.csv
+-   **Nombre:** jueces-justicia-federal-nacional-traslados-AAAAMMDD.csv
 
 -   **Descripción del contenido:** se detallan los traslados de jueces de la Justicia Federal y de la Justicia Nacional
 
@@ -116,9 +116,9 @@ Recursos disponibles
 
 -   **localidad_nombre_hacia (string):** nombre de la localidad en que se encuetra ubicado geográficamente el órgano al que es trasladado el magistrado
 
-### Traslados de magistrados de la Justicia Federal y la Justicia Nacional - AAAA
+### Traslados de jueces de la Justicia Federal y la Justicia Nacional - AAAA
 
-- **Nombre:** magistrados-justicia-federal-nacional-traslados-AAAA.zip
+- **Nombre:** jueces-justicia-federal-nacional-traslados-AAAA.zip
 
 - **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año
 
