@@ -34,7 +34,7 @@ Recursos disponibles
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:** traslados de jueces de la Justicia Federal y de la Justicia Nacional desde el año 2003 hasta la fecha consignada como "Datos actualizados al"
+-   **Rango temporal:** traslados de jueces de la Justicia Federal y de la Justicia Nacional desde el año 1992 hasta la fecha consignada como "Datos actualizados al"
 
 ### Campos del recurso
 
